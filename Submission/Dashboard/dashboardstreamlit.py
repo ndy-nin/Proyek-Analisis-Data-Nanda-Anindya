@@ -10,8 +10,8 @@ st.title("Analisis Penyewaan Sepeda - Bike Sharing Dataset")
 @st.cache_data
 def load_data():
     # Mengimpor dataset dari file CSV
-    day_data = pd.read_csv('C:/Users/Acer/Downloads/Bike-sharing-dataset/day.csv')
-    hour_data = pd.read_csv('C:/Users/Acer/Downloads/Bike-sharing-dataset/hour.csv')
+    day_data = pd.read_csv('https://raw.githubusercontent.com/ndy-nin/Proyek-Analisis-Data-Nanda-Anindya/refs/heads/main/Submission/Dashboard/data/day.csv')
+    hour_data = pd.read_csv('https://raw.githubusercontent.com/ndy-nin/Proyek-Analisis-Data-Nanda-Anindya/refs/heads/main/Submission/Dashboard/data/hour.csv')
     return day_data, hour_data
 
 day_data, hour_data = load_data()
