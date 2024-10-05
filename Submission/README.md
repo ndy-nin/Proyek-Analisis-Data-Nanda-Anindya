@@ -3,13 +3,11 @@
 ## Setup Environment - Shell/Terminal
 ```
 cd Dashboard
-install 
 pip install requirements.txt
 ```
 
 ## Run steamlit app - terminal
 ```
-code dashboardstreamlit.py
 streamlit run dashboardstreamlit.py
 ```
 # Proyek Analisis Data Penyewaan Sepeda
